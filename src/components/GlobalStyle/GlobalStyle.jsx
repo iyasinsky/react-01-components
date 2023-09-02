@@ -1,14 +1,23 @@
 import { createGlobalStyle } from 'styled-components';
-import 'modern-normalize';
+// import 'modern-normalize';
 
 export const GlobalStyle = createGlobalStyle`
-  p {
+  h1,
+  h2,
+  p,
+  ul,
+  li {
     margin: 0;
     padding: 0;
   }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
 
-  ul, li {
-    margin: 0;
-    padding: 0;
+  body {
+    background-color: grey;
   }
 `;
