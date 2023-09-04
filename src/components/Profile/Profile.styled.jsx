@@ -3,9 +3,9 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   margin: 0 auto;
   width: 280px;
-  border: 1px solid #81909f;
   border-radius: 5px;
   overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 `;
 
 export const Description = styled.div`
